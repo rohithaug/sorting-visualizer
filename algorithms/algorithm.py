@@ -13,7 +13,7 @@ class Algorithm():
 
         from visualizer import fixed_update_screen
         fixed_update_screen(self, "Start")
-#        time.sleep(1.5)
+        time.sleep(1.5)
         #Implement the algorithm
         self.algorithm()
         fixed_update_screen(self, "End")
