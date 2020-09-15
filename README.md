@@ -1,12 +1,14 @@
 # SORTING ALGORITHM VISUALIZER
 
-<p align="center">
-  <img src="sample.gif" width="840">
-</p>
-
 Graphical User Interface built using Python and Pygame to visualize Sorting Algorithms. Feel free to fork or download this project if you would like to try this out or use this code as the base to create your own Sorting Visualizer.
 
 [Refer this video](https://www.youtube.com/watch?v=NuB8QzFDjrQ) to see the code in action. Also, subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCi85kyL4Q-QpKgTp3sJdnFg) for more content.
+
+## Sample (Cycle Sort and Tim Sort): 
+
+<p align="center">
+  <img src="sample.gif" width="800">
+</p>
 
 ## Algorithms:
 1. Selection Sort ([Video](https://www.youtube.com/watch?v=NuB8QzFDjrQ&t=3s), [Algorithm](https://github.com/rohithaug/sorting-visualizer/blob/master/algorithms/SelectionSort.py#L9))
