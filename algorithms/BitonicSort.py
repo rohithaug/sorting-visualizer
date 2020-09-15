@@ -11,16 +11,6 @@ class BitonicSort(Algorithm):
     def __init__(self):
         super().__init__("Bitonic Sort")
 
-    def checkIsPowerOfTwo(self):
-        n = len(self.array)
-        if n == 0:
-            return False
-        while n != 1:
-            if n % 2 != 0:
-                return False
-            n //= 2
-        return True
-
     def algorithm(self, low = 0, count = None, ASC = True):
         if not self.checkIsPowerOfTwo():
             sys.exit("Error: Size of input array is not of the form 2^p")
@@ -44,3 +34,13 @@ class BitonicSort(Algorithm):
                 self.array[i], self.array[m+i] = self.array[m+i], self.array[i]
                 #visualise the sorting
                 self.update(i, m+i)
+
+    def checkIsPowerOfTwo(self):
+        n = len(self.array)
+        if n == 0:
+            return False
+        while n != 1:
+            if n % 2 != 0:
+                return False
+            n //= 2
+        return True
