@@ -22,6 +22,8 @@ Graphical User Interface built using Python and Pygame to visualize Sorting Algo
 15. [Stooge Sort](#stooge)
 16. [Pancake Sort](#pancake)
 
+## Selection Sort <a name="selection"> </a>
+
 ## Requirements:
   1. [Python](https://www.python.org/downloads/release/python-377/)
   2. [Pygame](https://pypi.org/project/pygame/)
